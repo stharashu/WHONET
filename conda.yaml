@@ -1,0 +1,28 @@
+channels:
+  # Define conda channels here.
+  - conda-forge
+
+dependencies:
+  # Define conda packages here.
+  # If available, always prefer the conda version of a package, installation will be faster and more efficient.
+  # https://anaconda.org/search
+  - python=3.9.13
+  - pip=23.0.1
+
+  - pip=23.0.1
+  - pip:
+      # Define pip packages here.
+      # https://pypi.org/
+      - rpaframework==28.6.0 # https://rpaframework.org/releasenotes.html
+      - rpaframework-recognition==5.2.4
+      - pillow==10.3.0
+      - pywin32==306
+      - pandas==2.2.2
+      - xlwings==0.31.3
+      - nepali_datetime==1.0.8.2
+      - opencv-python==4.9.0.80
+      - fuzzywuzzy==0.18.0
+      # - paddlepaddle==2.5.2
+      # - paddleocr==2.0.1
+      # - pytesseract==0.3.10
+      
